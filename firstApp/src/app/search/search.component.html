@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<div class="container mt-5">
+    <div class="card" style="padding: 20px ;">
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="searchQuery">Search Query</label>
+                <input type="text" class="form-control" id="searchQuery" name="searchQuery" (ngModel)="searchQuery" placeholder="Enter Search Query..." #searchQuery (keyup)="getBingSuggestion(searchQuery.value)">
+            </div>
+            <div class="col-lg-6">
+                <ngx-json-viewer [json]="suggestions" [expanded]="true"></ngx-json-viewer>
+            </div>
+        </div>
+    </div>
+</div>
