@@ -3,7 +3,8 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
 ## Home Page
-<img width="960" alt="image" src="https://mega.nz/file/so0QFACQ#zC7mVgo9ZzA481iqn46Z6kwy6DI7h3tqjOgdleZKBf4">
+![image](https://github.com/Harshitg551/Azure_angularProject/assets/98156928/97a01f37-5a89-469d-a7b0-f2260989e9cb)
+
 
 
 ## Development server
